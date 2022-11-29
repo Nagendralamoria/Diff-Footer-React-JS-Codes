@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+*{margin: 0;
+padding: 0;}
+.login-signup-page{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #FF8662;
+    align-items: center;
+}
+
+.hideclass{
+    display: none;
+}
+.login-signuppage-box{
+    display: grid;
+    max-width: 70%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+}
+.loginpage-box{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+padding: 2rem;
+ gap: 2rem;
+}
+.loginpage-box>h1{
+    font-family: "Sofia" ,sans-serif;
+    color: #A757FF;
+  }
+  .loginpage-box>p{
+      color: #A757FF;
+      text-align: end;
+  }
+  .Loginpage-form{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 2rem;
+  }
+  .Loginpage-form>input{
+      padding: 0.5rem;
+      border: none;
+      font-size: 1rem;
+  
+      color: #A757FF;
+      border-bottom: 0.15rem solid #A757FF;
+      background-color: transparent;
+  }
+  .Loginpage-form>input:focus{
+      outline: none;
+  }
+  .Loginpage-form>input::placeholder{
+      color: #A757FF;
+      font-size: 1rem;
+      font-weight: 500;
+  }
+  .Loginpage-form>p{
+      color: #A757FF;
+      cursor: pointer;
+      text-align: center;
+  }
+  .Loginpage-form>button{
+      padding: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      border: none;
+      border-radius: 1rem;
+      background-color: #A757FF;
+      color: white;
+  }
+  .Loginpage-form>button:hover{
+      background-color: white;
+      border: 0.1rem solid #A757FF;
+      color: #A757FF;
+      cursor: pointer;
+  }
+.login-signuppage-box>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+   object-fit: cover;
+}
+.signuppage-box{
+   
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   justify-content: center;
+   align-items: center;
+   justify-items: center;
+   padding: 2rem;
+   border-radius: 1rem;
+}
+
+.signuppage-box>h1{
+   font-family: "Sofia" ,sans-serif;
+   color: #A757FF;
+ }
+
+@media screen and (max-width: 900px){
+    .login-signup-page{
+        height: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: #FF8662;
+        align-items: center;
+    }
+    .login-signuppage-box{
+        display: grid;
+         
+        max-width: 100%;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto;
+        box-shadow:none;
+        border-radius: 0rem;
+    }
+}
