@@ -1,23 +1,15 @@
 
 import './App.css';
 
-import Footer2 from './Componentss/Footer2';
-import Loginpage1 from './Componentss/Loginpage1';
-import Flipcard from './Componentss/Flipcard';
-import Navbar from './Componentss/Navbar';
-import Navbar from './Componentss/Navbar3';
-import Navbar from './Componentss/Navbar2';
-import Navbar from './Componentss/Navbar4';
+import F2 from './Components/Footer2';
+import F1 from './Components/Footer1';
+
 
 function App() {
   return (
     <div className="App">
-     <Navbar/>
-     <Navbar2/>
-     <Navbar3/>
-     <Navbar4/>
-    
-
+        <F1\>
+          <F2\>
     </div>
   );
 }

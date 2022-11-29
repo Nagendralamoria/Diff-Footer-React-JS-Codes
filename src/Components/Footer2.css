@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+ background-color:  #293462;   
+ padding:1rem ;
+
+}
+.footerContent{
+    display:grid;
+    grid-template-columns: 35% 20% 20% 20%;
+    font-family: "Poppins",'Times New Roman', Times, serif;
+    color: white;
+    justify-content: space-between;
+}
+.footerAboutCompany{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.footerAboutCompany>h1{
+    font-size: 5rem;
+}
+.footerLinks{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+    list-style: none;
+   text-align: center;
+}
+.footerMenu>li>a{
+    text-decoration: none;
+    color: white;
+}
+.footerContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.footerContactdetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.contact-icons{
+    font-size: 2rem;
+}
+.footerIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style:none;
+}
+.color-white{
+    color: white;
+    font-size:2.5rem;
+}
+.footer>p{
+    border-top: solid 0.2rem;
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+@media screen and (max-width: 950px){
+    .footerContent{
+        display:grid;
+        grid-template-columns: auto;
+        font-family: "Poppins",'Times New Roman', Times, serif;
+        color: white;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+    .footerAboutCompany{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+   
+    .footerAboutCompany>h1{
+        font-size: 4rem;
+    }
+    .footerAboutCompany-details{
+        max-width: 50%;
+    }
+    .footerLinks{
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footerMenu{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: space-between;
+        list-style: none;
+       text-align: center;
+    }
+    .footerContact{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .footerIcons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        list-style:none;
+    }
+    .color-white{
+        color: white;
+        font-size:2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .footerContent{
+        display:grid;
+        grid-template-columns: auto;
+        font-family: "Poppins",'Times New Roman', Times, serif;
+        color: white;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+    .footerAboutCompany{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+   
+    .footerAboutCompany>h1{
+        font-size: 3rem;
+    }
+    .footerAboutCompany-details{
+        max-width: 100%;
+    }
+    .footerLinks{
+        display: flex;
+        gap: 0.5rem;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footerMenu{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: space-between;
+        list-style: none;
+       text-align: center;
+    }
+    .footerContact{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .footerIcons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        list-style:none;
+    }
+    .color-white{
+        color: white;
+        font-size:2rem;
+    }
+
+}
